@@ -9,5 +9,6 @@
 		"8000": {
 			"label": "exposed:8000"
 		}
-	}
+	},
+	"postStartCommand": "python3 -m http.server 8000"
 }
