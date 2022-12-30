@@ -12,5 +12,6 @@
 			"label": "exposed:8080"
 		}
 	},
-	"postCreateCommand": "python3 -m http.server 8080"
+	"forwardPort": 8080,
+	"postStartCommand": "python3 -m http.server 8080"
 }
