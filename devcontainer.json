@@ -1,0 +1,5 @@
+{
+  "image": "mcr.microsoft.com/vscode/devcontainers/universal:latest",
+  "forwardPorts": [8080],
+  "postCreateCommand": "python3 -m http.server 8080"
+}
