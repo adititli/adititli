@@ -20,7 +20,7 @@
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "python3 -m http.server 8080",
+	"postCreateCommand": "python3 -m http.server 8080"
 
 	// Configure tool-specific properties.
 	// "customizations": {},
