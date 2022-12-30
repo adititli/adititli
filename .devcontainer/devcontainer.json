@@ -11,7 +11,7 @@
 		"8080": {
 			"label": "exposed:8080"
 		}
-	}
+	},
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
