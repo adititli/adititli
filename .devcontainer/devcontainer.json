@@ -1,14 +1,6 @@
-// For format details, see https://aka.ms/devcontainer.json. For config options, see the
-// README at: https://github.com/devcontainers/templates/tree/main/src/ubuntu
 {
 	"name": "Ubuntu",
-	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
 	"image": "mcr.microsoft.com/devcontainers/universal",
 	"forwardPorts": [8000],
-	"portsAttributes": {
-		"8000": {
-			"label": "exposed:8000"
-		}
-	},
 	"postStartCommand": "python3 -m http.server 8000"
 }
